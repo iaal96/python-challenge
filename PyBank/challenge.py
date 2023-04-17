@@ -34,9 +34,9 @@ print("Financial Analysis")
 print("__________________")
 print(f"Total Months : {len(total_months)}" )
 print(f"Total: ${sum(total_amount)}")
-#calculate average change and round to two decimal points; (sum of changes/amount of changes)
+#calculate average change 
 print(f"Average Change: ${round(sum(average_change)/len(average_change),2)}")
-#make greatest increase/decrease values a string, add dollar sign, and attach corresponding months
+#print increases and decreases
 print(f"Greatest Increase in Profits: {total_months[greatest_increase_month]} (${(str(greatest_increase))})")
 print(f"Greatest Decrease in Profits: {total_months[greatest_decrease_month]} (${(str(greatest_decrease))})")
         
